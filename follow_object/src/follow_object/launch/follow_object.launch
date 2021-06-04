@@ -1,0 +1,19 @@
+<launch>
+
+  <include file="$(find ekf)/launch/ekf.launch"/>
+  <node pkg="nav245_landmark" type="nav245_landmark.py" name="nav245_landmark" required="true" output = "screen" >
+  </node>
+  <node pkg="follow_object" type="follow_object" name="follow_object" required="true" output = "screen" >
+    <param name="topic_pose_robot" value="odom"/>
+    <param name="topic_pose_object" value="pose_object"/>
+    <param name="topic_v" value="cmd_vel"/>
+    <param name="dist_safe" value="1"/>
+    <param name="kp" value="1.2"/>
+    <param name="l" value="0.2"/>
+    <param name="v_max_xe" value="0.3"/>
+  </node>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find follow_object)/rviz/follow_object.rviz" required="true"/>
+
+
+</launch>
