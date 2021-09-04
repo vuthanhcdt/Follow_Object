@@ -29,5 +29,5 @@ $ catkin_make
 run below command to follow object
 
 ```
-$ rosluanch follow_object follow_object.launch
+$ roslaunch follow_object follow_object.launch
 ```
