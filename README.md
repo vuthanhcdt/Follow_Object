@@ -26,11 +26,6 @@ $ git clone https://github.com/vuthanhcdt/Follow_Object.git
 $ cd ~/follow_object/
 $ catkin_make
 ```
-If you finish building code, you need to source your worksapce.
-please add **source ~/follow_object/devel/setup.bash** in your .bashrc.<br/>
-and use the commands below to copy the rule for pcar usb devices.<br/>
-
-
 run below command to follow object
 
 ```
