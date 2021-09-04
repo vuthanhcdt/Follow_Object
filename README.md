@@ -36,6 +36,3 @@ run below command to follow object
 ```
 $ rosluanch follow_object follow_object.launch
 ```
-
-
-```
