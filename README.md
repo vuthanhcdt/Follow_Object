@@ -5,7 +5,7 @@
 
 ## Demo Video ##
 **Robot follow object video**<br/> 
-[![image](http://img.youtu.be/j25A7QEM0ak/0.jpg)](https://youtu.be/j25A7QEM0ak)<br/>
+[![image](https://img.youtube.com/vi/j25A7QEM0ak/0.jpg)](https://youtu.be/j25A7QEM0ak)<br/>
 
 
 ## source code download and build code please follow steps ##
@@ -19,7 +19,7 @@ $ mkdir -p ~/follow_object/src
 2. git clone source code to your workspace<br/>
 ```
 $ cd ~/follow_object/src
-$ git clone https://github.com/andyangtw/pcar.git
+$ git clone https://github.com/vuthanhcdt/Follow_Object.git
 ```
 3. build code<br/>
 ```
