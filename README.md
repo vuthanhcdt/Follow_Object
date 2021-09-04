@@ -1,4 +1,4 @@
-# Fllow Object
+# Follow Object
 
 ![image](https://github.com/vuthanhcdt/Follow_Object/blob/main/Image/t81942.jpg)
 
@@ -31,18 +31,11 @@ please add **source ~/follow_object/devel/setup.bash** in your .bashrc.<br/>
 and use the commands below to copy the rule for pcar usb devices.<br/>
 
 
-
-
-run below command to send navigation goal
+run below command to follow object
 
 ```
-$ rosrun loco waypoint_nav.py (send navigation goals and ctrl+c key can stop navigation)
+$ rosluanch follow_object follow_object.launch
 ```
 
 
-## Simulate pcar navigation ##
-```
-$ roscore
-  open new terminal
-$ roslaunch rbx1_nav pcar_sim.launch
 ```
